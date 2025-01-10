@@ -7,6 +7,7 @@
   --accentColor-cream: #fdfbd4;
   --accentColor-lightGray: #d3d3d3;
   --text-color: #ffffff;
+  --contast-color: #a9c46c;
 }
 
 * {
@@ -14,9 +15,9 @@
   margin: 0;
 }
 
-a{
-	text-decoration: none;
-	color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .header_area {
@@ -26,63 +27,84 @@ a{
   z-index: 99;
   top: 0; */
   padding: 0 4%;
-  background-color:var(--primaryColor) ;
+  background-color: var(--primaryColor);
 }
 
-.navbar{
-	background-color: var(--primaryColor)!important;
+.navbar {
+  background-color: var(--primaryColor) !important;
 }
 
-.logo{
-	width: 40px;
-	height: 40px;
-	object-fit: cover;
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
 }
-.nav-link{
-	color: var(--accentColor-lightGray)!important;
+.nav-link {
+  color: var(--accentColor-lightGray) !important;
 }
-.nav-link.active{
-	color: var(--accentColor-cream)!important;
-}
-
-.nav-link:hover{
-	color: var(--accentColor-cream)!important;
+.nav-link.active {
+  color: var(--accentColor-cream) !important;
 }
 
-.banner{
-	background-color: var(--primaryColor);
-	height: 100vh;
+.nav-link:hover {
+  color: var(--accentColor-cream) !important;
 }
 
-.welcome-heading h1{
-	font-size: 61px;
-	font-weight: 700;
-	color: var(--text-color);
-	margin: 0px;
+.banner {
+  background-color: var(--primaryColor);
+  height: 100vh;
 }
 
-.welcome-heading p{
-	color: rgb(2, 71, 2);
-	font-weight: 600;
-	font-size: 18px;
+.welcome-heading h1 {
+  font-size: 61px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin: 0px;
+}
+
+.welcome-heading p {
+  color: rgb(2, 71, 2);
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .unlock-tag {
-color: var(--text-color);
+  color: var(--text-color);
 }
 
-.get-started-link{
-	background-color: var(--text-color);
-	padding: 4px 16px;
-	border-radius: 40px;
+.get-started-link {
+  background-color: var(--text-color);
+  padding: 4px 16px;
+  border-radius: 40px;
 }
 
-.get-started-link img{
-	width: 28px;
-	object-fit: cover;
-	margin-right: 8px;
+.get-started-link img {
+  width: 28px;
+  object-fit: cover;
+  margin-right: 8px;
 }
 
-.get-started-link span{
-	font-size: 10px;
+.get-started-link span {
+  font-size: 10px;
+}
+
+.section-2 {
+  background-color: var(--accentColor-cream);
+}
+/* 
+.sec-heading{
+	color: var(--);	
+} */
+
+.sec2-content {
+  background-color: var(--contast-color);
+  border-radius: 40px;
+}
+
+.line-shape {
+  width: 80px;
+  height: 2px;
+  background-color: #b3a695;
+  margin-top: 15px;
+  margin-left: calc(50% - 40px);
 }
