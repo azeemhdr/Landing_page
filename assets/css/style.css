@@ -8,6 +8,7 @@
   --accentColor-lightGray: #d3d3d3;
   --text-color: #ffffff;
   --contast-color: #a9c46c;
+  --p-textColor:#8e8e8e;
 }
 
 * {
@@ -91,10 +92,10 @@ a {
 .section-2 {
   background-color: var(--accentColor-cream);
 }
-/* 
+
 .sec-heading{
-	color: var(--);	
-} */
+	color: var(--primaryColor);	
+}
 
 .sec2-content {
   background-color: var(--contast-color);
@@ -104,7 +105,92 @@ a {
 .line-shape {
   width: 80px;
   height: 2px;
-  background-color: #b3a695;
+  /* background-color: #b3a695; */
+  background-color: var(--primaryColor);
   margin-top: 15px;
   margin-left: calc(50% - 40px);
+}
+
+.section-3{
+	background-color: var(--text-color);
+}
+
+.sec3-left-content h3{
+  color: var(--contast-color);
+}
+
+.sec3-left-content p{
+  color: var(--p-textColor);
+}
+
+.read-more-link{
+	background-color: black;
+	color: var(--text-color);
+	padding: 14px 32px;
+	border-radius: 30px;
+}
+
+.right-content-img::after{
+content: '';
+width: 0;
+height: 0;
+border-top:200px solid var(--contast-color);
+border-left: 200px solid transparent;
+position: absolute;
+top: -15px;
+right: -15px;
+}
+
+.right-content-img{
+  box-shadow: 0 0 32px #0003;
+}
+
+.app-slide-img{
+  width: 100%;
+  height: 600px;
+}
+
+.app-slide-img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec5-content{
+  background-image: url('../images/site/why-us.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  padding: 48px 0px;
+  position: relative;
+
+}
+
+.sec5-content::before{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.774);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.app-details{
+  position: relative;
+}
+
+.reviewer-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: clip;
+  margin: auto;
+}
+
+.reviewer-img img{
+  width: 100%;
+  object-fit: cover;
 }
