@@ -128,6 +128,12 @@ a {
 	color: var(--text-color);
 	padding: 14px 32px;
 	border-radius: 30px;
+  transition: 300ms ease-in-out;
+}
+
+.read-more-link:hover{
+  background-color: var(--primaryColor);
+  color: var(--accentColor-cream);
 }
 
 .right-content-img::after{
