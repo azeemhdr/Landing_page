@@ -25,8 +25,8 @@ a {
   /* left: 0;
   position: absolute;
   width: 100%;
-  z-index: 99;
   top: 0; */
+  z-index: 99;
   padding: 0 4%;
   background-color: var(--primaryColor);
 }
