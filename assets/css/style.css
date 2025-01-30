@@ -105,6 +105,7 @@ a {
 .sec2-content {
   background-color: var(--contast-color);
   border-radius: 40px;
+  height: 323.2px;
 }
 
 .line-shape {
@@ -223,10 +224,12 @@ a {
   background-position: center;
   position: relative;
   color: var(--text-color);
+  min-height: 184px;
 }
 
 .contact-details-wrapper {
   position: relative;
+  width: 100%;
 }
 
 .contact-img {
