@@ -121,6 +121,11 @@ a {
   background-color: var(--text-color);
 }
 
+.whyChooseUs ul li{
+  color: var(--p-textColor);
+  padding-top:10px ;
+}
+
 .sec3-left-content h3 {
   color: var(--contast-color);
 }
